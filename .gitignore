@@ -1,0 +1,5 @@
+# MacOS
+.DS_Store
+
+# Binaries
+/web/main.wasm
