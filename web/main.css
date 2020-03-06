@@ -2,7 +2,16 @@ body
 {
   margin: 0px;
   padding: 0px;
-	text-align: center;
+}
+
+h1
+{
+  font-size: x-large;
+}
+
+header
+{
+  text-align: center;
 }
 
 article
@@ -17,4 +26,21 @@ canvas
 {
 	width: 800px;
 	height: 600px;
+}
+
+footer
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.left-column
+{
+  float: left;
+}
+
+.right-column
+{
+  float: right;
 }
