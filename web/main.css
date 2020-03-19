@@ -1,0 +1,54 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1
+{
+  font-size: x-large;
+}
+
+header
+{
+  text-align: center;
+}
+
+article
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+  text-align: center;
+}
+
+#loading
+{
+  padding-top: 200px;
+  font-style: italic;
+}
+
+canvas
+{
+  display: none;
+  width: 800px;
+  height: 600px;
+}
+
+footer
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.left-column
+{
+  float: left;
+}
+
+.right-column
+{
+  float: right;
+}
