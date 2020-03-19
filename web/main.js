@@ -19,5 +19,7 @@ window.onload = () => {
 	WebAssembly.instantiateStreaming(fetch("web/main.wasm"), go.importObject).then((result) => {
 		console.log('running webassembly executable...');
 		go.run(result.instance);
+		document.getElementById("loading").remove();
+		document.getElementById("screen").style.display = "block";
 	});
 };

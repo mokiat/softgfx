@@ -20,12 +20,20 @@ article
   margin-right: auto;
   width: 800px;
   height: 600px;
+  text-align: center;
+}
+
+#loading
+{
+  padding-top: 200px;
+  font-style: italic;
 }
 
 canvas
 {
-	width: 800px;
-	height: 600px;
+  display: none;
+  width: 800px;
+  height: 600px;
 }
 
 footer
