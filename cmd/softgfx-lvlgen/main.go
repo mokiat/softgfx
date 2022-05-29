@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/urfave/cli"
+	cli "github.com/urfave/cli/v2"
 
 	"github.com/mokiat/softgfx/cmd/softgfx-lvlgen/internal/conversion"
 )
@@ -15,15 +15,15 @@ func main() {
 	app.Usage = "generate levels for softgfx from wavefront obj files"
 	app.UsageText = "softgfx-lvlgen [--in obj_file] [--out level_file]"
 	app.Flags = []cli.Flag{
-		cli.StringFlag{
+		&cli.StringFlag{
 			Name:  "in",
 			Usage: "specify an obj file to read model from (by default STDIN is used)",
 		},
-		cli.StringFlag{
+		&cli.StringFlag{
 			Name:  "out",
 			Usage: "specify a file to write json level to (by default STDOUT is used)",
 		},
-		cli.Float64Flag{
+		&cli.Float64Flag{
 			Name:  "scale",
 			Usage: "specify a scaling factor for the level",
 			Value: 64.0,
